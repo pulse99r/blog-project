@@ -3,17 +3,24 @@
   <head>
     <title>Kenti's NanoDegree Blog Project</title>
     <meta
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+     content="width=device-width, initial-scale=1, maximum-scale=1"
       name="viewport"
-    />
+    /> 
     <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Macondo&family=Meddon&display=swap" rel="stylesheet">
     
   </head>
   
   <body>
     <header>
       <div class="pg-hdr">
-        <a href="./index.html" class="logo"><img src="/Udacity/FEND/blog-project/assets/images/trebleClefSymbol01.jpg" alt="treble clef logo"></a>
+        <a href="./index.html" class="logo"><img src="./assets/images/IMG_2550.JPG" alt="Photo of Kenti"></a>
         <h1>
           <a href="./index.html" class="site-name">Kenti's NanoDegree Blog Project</a>
         </h1>
@@ -22,55 +29,79 @@
         <ul class="menu">
           <li><a href="./index.html" class="menu-item">Home</a></li>
           <li><a href="./pages/blog-post-listing.html" class="menu-item">Blogs</a></li>
+          <li><a href="./pages/gallery.html" class="menu-item">Photo Gallery</a></li>
           <li><a href="./pages/subscribe.html" class="menu-item">Subscribe</a></li>
           <li><a href="./pages/about.html" class="menu-item">About</a></li>
+          <li><a href="./pages/contact.html" class="menu-item">Contact Us</a></li>
           <li><a href="./pages/settings.html" class="menu-item">Settings</a></li>
         </ul>
       </nav>
     </header>
-    <div class="container outer-box">
+    <div class="blog-post-hdr"><h2>Current Blog Posts</h2></div>
+    <div class="container">
         <article class="box">
-          <p>World</p>
-          <p>Example Blog Post</p>
-          <p>May 29, 2022</p>
-          <p><strong>Guitar Tips: Top 5 Tips for Beginners.  Learn To Read and Play Notes
-            There is no better way to increase your level of ..</strong></p>
-          <p><a href="./pages/blogpost-901.html">continue reading...</a></p>
+          <img src="./assets/images/guitar-man.png" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">Guitar</p>
+          <p class="blog-title">Guitar Tips: Top 5 Tips for Beginners</p>
+          <p class="date">May 29, 2022</p>
+          <p class="short-desc"><strong>Guitar Tips</strong>: Top 5 Tips for Beginners. 
+          <blockquote cite="./pages/blogpost-901.html">
+            Learn To Read and Play Notes. There is no better way to increase your level of...
+          </blockquote></p> 
+          <p><a href="./pages/blogpost-901.html" class="readit"></a></p>
         </article>
         <article class="box">
-          <p>Example Blog Post</p>
-          <p>Nov 12</p>
-          <p>This is a wider card supporting text below as natural lead0in to additional content.</p>
-          <p><a href="#"blogpost-902>continue reading...</a></p>
+          <img src="./assets/images/guitar-man002.jpg" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">World</p>
+          <p class="blog-title">Example Blog Post</p>
+          <p class="date">Nov 12, 2015</p>
+          <p class="short-desc">This blog site was designed in compliance with <strong><u>mobile first</u></strong> design principles. The display starts with a single column of boxes at the <u>narrowest</u> screen size (about the size of a typical smart phone).  Each card represents an example blog post.</p>
+          <p><a href="./pages/blogpost-902.html" class="readit"></a></p>
         </article>
         <article class="box">
-          <p>World</p>
-          <p>Example Blog Post</p>
-          <p>Nov 12</p>
-          <p>This card represents and example blog post.</p>
-          <p><a href="#"blogpost-903>continue reading...</a></p></article>
+          <img src="./assets/images/guitar-man.png" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">World</p>
+          <p class="blog-title">Example Blog Post</p>
+          <p class="date">Nov 12</p>
+          <p class="short-desc">As the width of the screen grows, the number of columns will grow to fill the new screen-width, up to three columns and multiple rows. Each card represents and example blog post.</p>
+          <p><a href="./pages/blogpost-903.html"  class="readit"></a></p></article>
         <article class="box">
-          <p>World</p>
-          <p>Example Blog Post</p>
-          <p>Nov 12</p>
-          <p>This card represents and example blog post.</p>
-          <p><a href="#"blogpost-904>continue reading...</a></p>
+          <img src="./assets/images/guitar-man002.jpg" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">World</p>
+          <p class="blog-title">Example Blog Post</p>
+          <p class="date">Nov 12</p>
+          <p class="short-desc">At it's widest, up to four cards will be displayed on each row.  Also note that the size of the rows vary with th size of the content embeded in the cards.  The rows till take the size of the card with the largest <u><i>content</i></u>.</p>
+          <p><a href="./pages/blogpost-904.html" class="readit"></a></p>
         </article>
         <article class="box">
-          <p>World</p>
-          <p>Example Blog Post</p>
-          <p>Nov 12</p>
-          <p>This card represents and example blog post.</p>
-          <p><a href="#"blogpost-905>continue reading...</a></p>
+          <img src="./assets/images/guitar-man.png" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">World</p>
+          <p class="blog-title">Example Blog Post</p>
+          <p class="date">Nov 12</p>
+          <p class="short-desc">This card represents and example blog post. </p>
+          <p><a href="./pages/blogpost-905.html" class="readit"></a></p>
         </article>
         <article class="box">
-          <p>World</p>
-          <p>Example Blog Post</p>
-          <p>Nov 12</p>
-          <p>This card represents and example blog post.</p>
-          <p><a href="#"blogpost-906>continue reading...</a></p>
+          <img src="./assets/images/guitar-man002.jpg" alt="silouette of man with guitar" class="article-img"/>
+          <p class="category">World</p>
+          <p class="blog-title">Example Blog Post</p>
+          <p class="date">Nov 12</p>
+          <p class="short-desc">This card represents and example blog post.  Now is the time for all good men to come to the aid of their country. If your not men who stand for <i class="under">something</i>, you are men who will stand for <i class="under">anything</i>. Note that the underline in the previous sentence, and the <b class="red">red color</b> in this sentence were achieved using the text-decoration property in the css file <b class="under">fonts.css</b>.</p>
+          <p><a href="pages/blogpost-906.html" class="readit"></a></p>
         </article>
       
-    </div>  
+    </div> 
+    <footer class="footer">
+      <p class="pg-footer"><a href="./index.html" class="menu-item">Home</a></p>
+      <p class="pg-footer"><a href="./pages/blog-post-listing.html" class="menu-item">Blogs</a></p>
+      <p class="pg-footer"><a href="./pages/subscribe.html" class="menu-item">Subscribe</a></p>
+      <p class="pg-footer"><a href="./pages/about.html" class="menu-item">About</a></p>
+      <p class="pg-footer"><a href="./pages/contact.html" class="menu-item">Contact Us</a></p>
+      <p class="pg-footer"><a href="http://www.facebook.com/pulse99/">Facebook</a></p>
+      <p class="pg-footer"><a href="http://www.twitter.com/pulse99r/">Twitter</a></p>
+      <p class="pg-footer"><a href="http://www.youtube.com/pulse992/search?=kenti + johnson + pulse992">Youtube</a></p>
+      <p class="pg-footer"><a href="http://www.instagram.com/pulse99/">Instagram</a></p>
+      <p class="pg-footer copyr">&copy Kenti Johnson | 2022 - All rights reserved.</p>
+    </footer>
   </body>
 </html>
