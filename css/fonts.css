@@ -1,0 +1,26 @@
+
+.body {
+    font-family: 'Indie Flower', 'Macondo','Meddon', cursive;
+}
+div h2 {
+ color: rgb(35, 40, 128);
+ padding:20px 20px;
+}
+header .author-name {
+    font-weight: bold;
+}
+article h3 {
+    color: rgb(204, 218, 42);
+}
+.pg-footer{
+    font-style: italic;
+}
+.copyr, .file-name {
+    font-size: smaller;
+}
+.under {
+    text-decoration: underline;
+}
+.red {
+    color:red;
+}
